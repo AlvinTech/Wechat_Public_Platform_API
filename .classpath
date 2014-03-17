@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="wxCustomMenu"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
@@ -8,5 +9,14 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="menuLib/jsonLib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="menuLib/jsonLib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="menuLib/jsonLib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="menuLib/jsonLib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="menuLib/jsonLib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="menuLib/jsonLib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="menuLib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="menuLib/httpclient-4.2.5.jar"/>
+	<classpathentry kind="lib" path="menuLib/httpcore-4.2.4.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
